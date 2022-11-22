@@ -1,0 +1,120 @@
+.home-page {
+  padding-top: 135px;
+}
+
+.fp-home-banner {
+  position: relative;
+  padding: 0px 0px 305px 0px;
+}
+.fp-home-banner .fp-banner-txt-wrap {
+  margin-bottom: 240px;
+}
+.fp-home-banner .fp-title {
+  font-size: 92px;
+  text-align: center;
+  color: #204b45;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-top: 150px;
+}
+.fp-home-banner .fp-first-framescroll-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.fp-catalog .fp-catalog-header {
+  text-align: center;
+}
+.fp-catalog .fp-catalog-header h3 {
+  color: rgba(32, 75, 69, 0.4);
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 600;
+}
+.fp-catalog .fp-catalog-header h3 span {
+  color: #204b45;
+}
+
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fp-sizes {
+  overflow: hidden;
+}
+.fp-sizes .fp-sizes-txt {
+  margin-top: 280px;
+}
+.fp-sizes .fp-sizes-txt h2 {
+  color: rgba(32, 75, 69, 0.4);
+  font-size: 80px;
+  text-align: center;
+  color: #204b45;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+.fp-sizes .fp-sizes-txt h2 span {
+  color: #204b45;
+}
+.fp-sizes .fp-second-framescroll-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.fp-advantages .fp-advantages-txt h2 {
+  color: rgba(32, 75, 69, 0.4);
+  font-size: 80px;
+  text-align: center;
+  color: #204b45;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+.fp-advantages .fp-advantages-txt h2 span {
+  color: #204b45;
+}
+.fp-advantages .fp-third-framescroll-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.fp-colors .fp-colors-txt h2 {
+  color: rgba(32, 75, 69, 0.4);
+  font-size: 80px;
+  text-align: center;
+  color: #204b45;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+.fp-colors .fp-colors-txt h2 span {
+  color: #204b45;
+}
+.fp-colors .fp-fourth-framescroll-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.fp-fence .fp-fence-txt h2 {
+  color: rgba(32, 75, 69, 0.4);
+  font-size: 80px;
+  text-align: center;
+  color: #204b45;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+.fp-fence .fp-fence-txt h2 span {
+  color: #204b45;
+}
+.fp-fence .fp-fifth-framescroll-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}

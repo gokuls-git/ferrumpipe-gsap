@@ -1,0 +1,84 @@
+// deafult Color
+$primary-color: #007bff!default; // green
+$secondary-color: #41B6F7 !default; // red
+$quinary-color: #272727 !default; // Grey
+// Custom-color
+$dark-bg: #20222E !default;
+$dark-gray: #323241 !default;
+$light-bg: #EDF1F7 !default;
+$text-color: #1D1D1D !default;
+$title-color: #1D1D1D !default;
+$hover :$primary-color;
+$border-color: #E6E6E6 !default;
+$text-alt: #282828 !default;
+$text-off: #281107 !default;
+$white: #fff !default;
+$black: #000 !default;
+$red: #C60C02 !default;
+
+// Font Family
+$font-family: 'Oxygen',
+sans-serif;
+$d-ico: 'deafult-icons' !default;
+//button
+$font-light:300;
+$font-regular:400;
+$font-medium:500;
+$font-semibold:600;
+$font-bold:700;
+$font-weight-title: $font-semibold;
+// Spacing
+$gutter-1: 30px !default; // 30px
+$spacing: 50px !default; // 50px.
+// zindex
+$header-z:999;
+$filter-z:99;
+
+// Font size
+
+
+$base-font-sizes: (
+  null  : 13px,
+  768px : 14px,
+  1200px : 15px,
+  1350px: 16px
+);
+
+
+$base-font: 16;
+$fontSizes : (
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22
+);
+
+$ttlSizes: (
+	18,
+	20,
+	22,
+	24,
+	30,
+	40,
+	50,
+	60
+);
+
+$fontWeight: (
+	200 : light,
+	300 : thin,
+	400 : normal,
+	500 : medium,
+	600 : semi-bold,
+	700 : bold
+);
+
+
+
+
+  

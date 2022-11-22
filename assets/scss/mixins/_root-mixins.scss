@@ -1,0 +1,39 @@
+
+$base-size: $base-font;
+@function f-size($target, $context: $base-font) {
+    @return ($target / $context) * 1rem;
+}
+
+@each $val in $fontSizes{
+  .fz-#{$val}{
+    font-size: f-size($val);
+  }
+  }
+  
+  @each $val in $ttlSizes{
+  .ttl-#{$val}{
+    font-size: f-size($val);
+  }
+  }
+  
+  @each $val, $boldname in $fontWeight{
+  .fw-#{$boldname},
+  .fw-#{$val}{
+    font-weight: $val;
+  }
+}
+
+
+@mixin font-size($base-font-sizes) {
+  @each $fs-breakpoint, $fs-font-size in $base-font-sizes {
+    @if $fs-breakpoint == null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      @media screen and (min-width: $fs-breakpoint) {
+        font-size: $fs-font-size;
+      }
+    }
+  }
+}
+
